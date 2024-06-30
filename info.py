@@ -23,7 +23,7 @@ API_HASH = environ.get('API_HASH', '68ab1c74d05cfc38965949d30abe11b0')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
-CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
+CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/9fba4000e81d6a9fa7286.jpg https://telegra.ph/file/5f3e6d393e0eb327bdb2e.jpg https://telegra.ph/file/9e8f7d98cb517b76bb4ad.jpg https://telegra.ph/file/a58e4e31f1637ef99d745.jpg https://telegra.ph/file/6bf4254906b732c04682b.jpg https://telegra.ph/file/8f778fed497a2056ba0a6.jpg https://telegra.ph/file/bb6929bc1314e980c44f8.jpg https://telegra.ph/file/e6302e8e6a7432b4355e9.jpg https://telegra.ph/file/080bfeaee5cee7db49d27.jpg https://telegra.ph/file/f0355cea37ae89d32e955.jpg https://telegra.ph/file/8f778fed497a2056ba0a6.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://te.legra.ph/file/a27dc8fe434e6b846b0f8.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
@@ -50,7 +50,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-100
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jaitt4545:F20gy7WqA23HWMEx@bot.qmvomrh.mongodb.net/?retryWrites=true&w=majority&appName=BOT")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://jaiveer4545:E5dEJd0yW5ok6HsU@jjjj.xehgciw.mongodb.net/?retryWrites=true&w=majority&appName=JjjjretryWrites=true&w=majority&appName=BOT")
 DATABASE_NAME = environ.get('DATABASE_NAME', "BOT")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'techvjcollection')
 
